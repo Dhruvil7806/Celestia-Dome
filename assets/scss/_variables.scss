@@ -1,0 +1,26 @@
+$iconBoxSize: 72px;
+$fontLarge: 36px;
+$mainColor: #68A4C4;
+$baseFontSize: 14px;
+
+$primaryTextColor: #1e4356;
+$secondaryTextColor: #5e5e5e;
+$tertiaryTextColor: #777777;
+$primaryBackground: #1e4356;
+$primaryFont: "Roboto", sans-serif;
+$darkColor: rgba(30, 67, 86, 0.8);
+$baseFontColor: #fff;
+$hoverFontColor: #68A4C4;
+$errorColor: #ed3c0d;
+$successColor: #18d26e;
+$mainColor: #68A4C4;
+$footerBg: #0b212d;
+$footerDarkerBg: #0d2735;
+$footerBorderColor: #17455e;
+$linkColor: #a2cce3;
+
+@mixin iconBoxHover($color) {
+    &:hover {
+        border-color: $color;
+    }
+}
