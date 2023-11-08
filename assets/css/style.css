@@ -2318,6 +2318,11 @@ section {
   line-height: 26px;
 }
 
+#footer .footer-top .footer-contact table tr th,
+#footer .footer-top .footer-contact table tr td {
+  vertical-align: top;
+}
+
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
