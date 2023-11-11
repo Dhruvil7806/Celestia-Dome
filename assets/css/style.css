@@ -766,7 +766,8 @@ section {
   transition: 0.5s;
 }
 
-.why-us .icon-box .icon i {
+.why-us .icon-box .icon i,
+.why-us i {
   color: #68A4C4;
   font-size: 32px;
 }
@@ -1154,6 +1155,15 @@ section {
   color: #68A4C4;
 }
 
+.services-item {
+  margin: 1rem 0;
+}
+
+.services blockquote {
+  font-style: italic;
+  color: slategray;
+}
+
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
@@ -1335,6 +1345,7 @@ section {
   top: 10%;
   left: 0;
   right: 0;
+  display: none;
 }
 
 .portfolio .portfolio-item .portfolio-info h3 {
@@ -1354,7 +1365,7 @@ section {
 }
 
 .portfolio .portfolio-item:hover img {
-  opacity: 0.6;
+  /* opacity: 0.6; */
   transform: scale(1.1);
 }
 
